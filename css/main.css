@@ -15,6 +15,24 @@ body .intro {
           justify-content: space-between;
 }
 
+body .intro .pfp {
+  width: 100px;
+  height: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 25% 25%;
+     object-position: 25% 25%;
+  max-width: 110px;
+  border-radius: 100px 100px 100px 100px;
+  margin-bottom: 10px;
+}
+
+body .intro .logo {
+  margin: 10px;
+  width: 80px;
+  height: 80px;
+}
+
 body .intro h2 {
   font-family: "Inter";
   color: #2C3136;
@@ -32,22 +50,20 @@ body .intro p1 {
   line-height: 1.4em;
 }
 
-body .intro .pfp {
-  width: 100px;
-  height: 100px;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: 25% 25%;
-     object-position: 25% 25%;
-  max-width: 110px;
-  border-radius: 100px 100px 100px 100px;
-  margin-bottom: 10px;
+body .intro .mhslink {
+  text-decoration: none;
+  background: -webkit-gradient(linear, left top, right top, from(#08225a), to(#5692b6));
+  background: linear-gradient(to right, #08225a, #5692b6);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
-body .intro .logo {
-  margin: 10px;
-  width: 80px;
-  height: 80px;
+body .intro .valolink {
+  text-decoration: none;
+  background: -webkit-gradient(linear, left top, right top, from(#cf865e), to(#f26321));
+  background: linear-gradient(to right, #cf865e, #f26321);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
 @media (min-width: 750px) {
