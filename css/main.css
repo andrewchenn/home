@@ -1,4 +1,5 @@
 body {
+  font-family: "Inter";
   margin-top: 40px;
   margin-left: 15px;
   margin-right: 15px;
@@ -34,7 +35,6 @@ body .intro .logo {
 }
 
 body .intro h2 {
-  font-family: "Inter";
   color: #2C3136;
   font-size: 22px;
   font-weight: 600;
@@ -43,7 +43,6 @@ body .intro h2 {
 }
 
 body .intro p1 {
-  font-family: "Inter";
   color: #434A54;
   font-size: 15px;
   font-weight: 400;
@@ -66,6 +65,78 @@ body .intro .valolink {
   -webkit-background-clip: text;
 }
 
+body .projects {
+  padding-top: 15px;
+}
+
+body .projects h6 {
+  color: #9CA3AF;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.5em;
+  margin-bottom: 10px;
+}
+
+body .projects .single-project {
+  padding-bottom: 10px;
+}
+
+body .projects .single-project .single-project-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .projects .single-project .single-project-header a {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.3em;
+  letter-spacing: -0.2px;
+}
+
+body .projects .single-project .single-project-header .fa-up-right-from-square {
+  margin-left: 10px;
+  margin-top: 3px;
+  color: #9CA3AF;
+  font-size: 12px;
+}
+
+body .projects .single-project p {
+  color: #434A54;
+  font-size: 13px;
+  line-height: 1.5em;
+  font-weight: 400;
+}
+
+body .projects .github-button-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .projects .github-button-container button {
+  cursor: pointer;
+  border-radius: 5px;
+  border: #30353d;
+  height: 38px;
+  width: 150px;
+  background: #30353d;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+body .projects .github-button-container button .fa-github {
+  margin-left: 10px;
+}
+
+body .projects .github-button-container button:hover {
+  background: black;
+}
+
 @media (min-width: 750px) {
   body {
     margin-top: 40px;
@@ -76,7 +147,6 @@ body .intro .valolink {
     display: block;
   }
   body .intro h2 {
-    font-family: "Inter";
     color: #2C3136;
     font-size: 22px;
     font-weight: 600;
@@ -84,7 +154,6 @@ body .intro .valolink {
     letter-spacing: -0.2px;
   }
   body .intro p1 {
-    font-family: "Inter";
     color: #434A54;
     font-size: 15px;
     font-weight: 400;
@@ -118,7 +187,6 @@ body .intro .valolink {
     display: block;
   }
   body .intro h2 {
-    font-family: "Inter";
     color: #2C3136;
     font-size: 22px;
     font-weight: 600;
@@ -126,7 +194,6 @@ body .intro .valolink {
     letter-spacing: -0.2px;
   }
   body .intro p1 {
-    font-family: "Inter";
     color: #434A54;
     font-size: 15px;
     font-weight: 400;
