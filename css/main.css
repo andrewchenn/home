@@ -65,16 +65,17 @@ body .intro .valolink {
   -webkit-background-clip: text;
 }
 
-body .projects {
-  padding-top: 15px;
-}
-
-body .projects h6 {
+body h6 {
   color: #9CA3AF;
   font-size: 12px;
   font-weight: 600;
   line-height: 1.5em;
   margin-bottom: 10px;
+}
+
+body .projects {
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 body .projects .single-project {
@@ -135,6 +136,56 @@ body .projects .github-button-container button .fa-github {
 
 body .projects .github-button-container button:hover {
   background: black;
+}
+
+body .elsewhere .elsewhere-buttons-container {
+  display: -ms-grid;
+  display: grid;
+}
+
+body .elsewhere .elsewhere-buttons-container a {
+  text-decoration: none;
+  color: #374151;
+  width: 100%;
+}
+
+body .elsewhere .elsewhere-buttons-container button {
+  background: #F3F4F6;
+  border-color: #0000000D;
+  border-style: solid;
+  border: 1px;
+  padding: 8px 14px 8px 14px;
+  border-radius: 4px;
+  font-size: 12px;
+  margin: 5px 5px 5px 5px;
+}
+
+body .elsewhere .elsewhere-buttons-container button:hover {
+  cursor: pointer;
+  background-color: #d4d4d6c0;
+}
+
+body .elsewhere .elsewhere-buttons-container .fa-brands {
+  margin-right: 10px;
+}
+
+body .elsewhere .elsewhere-buttons-container .instagram {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+}
+
+body .elsewhere .elsewhere-buttons-container .facebook {
+  -ms-grid-column: 2;
+      grid-column-start: 2;
+}
+
+body .footer {
+  margin-top: 50px;
+}
+
+body .footer p {
+  font-size: 13px;
+  color: #9CA3AF;
 }
 
 @media (min-width: 750px) {

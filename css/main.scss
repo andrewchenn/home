@@ -44,15 +44,16 @@ body{
             -webkit-background-clip: text;
         }
     }
+    h6{
+        color: #9CA3AF;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 1.5em;
+        margin-bottom: 10px;
+    }
     .projects{
         padding-top: 15px;
-        h6{
-            color: #9CA3AF;
-            font-size: 12px;
-            font-weight: 600;
-            line-height: 1.5em;
-            margin-bottom: 10px;
-        }
+        padding-bottom: 15px;
         .single-project{
             padding-bottom: 10px;
             .single-project-header{
@@ -99,7 +100,46 @@ body{
             }
         }
     }
-
+    .elsewhere{
+        .elsewhere-buttons-container{
+            display: grid;
+            a{
+                text-decoration: none;
+                color: #374151;
+                width: 100%;
+            }
+            button{
+                background: #F3F4F6;
+                border-color: #0000000D;
+                border-style: solid;
+                border: 1px;
+                padding: 8px 14px 8px 14px;
+                border-radius: 4px;
+                font-size: 12px;
+                margin: 5px 5px 5px 5px;
+            }
+            button:hover{
+                cursor: pointer;
+                background-color: #d4d4d6c0;
+            }
+            .fa-brands{
+                margin-right: 10px;
+            }
+            .instagram{
+                grid-column-start: 1;
+            }
+            .facebook{
+                grid-column-start: 2;
+            }
+        }
+    }
+    .footer{
+        p{
+            font-size: 13px;
+            color: #9CA3AF;
+        }
+        margin-top: 50px;
+    }
     margin-top: 40px;
     margin-left: 15px;
     margin-right: 15px;
