@@ -59,10 +59,16 @@ body{
             .single-project-header{
                 display: flex;
                 a{
+                    text-decoration: none;
+                    color: black;
                     font-size: 15px;
                     font-weight: 600;
                     line-height: 1.3em;
                     letter-spacing: -0.2px;
+                }
+                a:hover{
+                    cursor: pointer;
+                    color:#5692b6;
                 }
                 .fa-up-right-from-square{
                     margin-left: 10px;

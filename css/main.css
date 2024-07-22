@@ -4,18 +4,11 @@ body {
   margin-left: 15px;
   margin-right: 15px;
 }
-
 body .intro {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
-
 body .intro .pfp {
   width: 100px;
   height: 100px;
@@ -27,13 +20,11 @@ body .intro .pfp {
   border-radius: 100px 100px 100px 100px;
   margin-bottom: 10px;
 }
-
 body .intro .logo {
   margin: 10px;
   width: 80px;
   height: 80px;
 }
-
 body .intro h2 {
   color: #2C3136;
   font-size: 22px;
@@ -41,30 +32,24 @@ body .intro h2 {
   line-height: 1.3em;
   letter-spacing: -0.2px;
 }
-
 body .intro p1 {
   color: #434A54;
   font-size: 15px;
   font-weight: 400;
   line-height: 1.4em;
 }
-
 body .intro .mhslink {
   text-decoration: none;
-  background: -webkit-gradient(linear, left top, right top, from(#08225a), to(#5692b6));
   background: linear-gradient(to right, #08225a, #5692b6);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
-
 body .intro .valolink {
   text-decoration: none;
-  background: -webkit-gradient(linear, left top, right top, from(#cf865e), to(#f26321));
   background: linear-gradient(to right, #cf865e, #f26321);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
-
 body h6 {
   color: #9CA3AF;
   font-size: 12px;
@@ -72,52 +57,44 @@ body h6 {
   line-height: 1.5em;
   margin-bottom: 10px;
 }
-
 body .projects {
   padding-top: 15px;
   padding-bottom: 15px;
 }
-
 body .projects .single-project {
   padding-bottom: 10px;
 }
-
 body .projects .single-project .single-project-header {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 body .projects .single-project .single-project-header a {
+  text-decoration: none;
+  color: black;
   font-size: 15px;
   font-weight: 600;
   line-height: 1.3em;
   letter-spacing: -0.2px;
 }
-
+body .projects .single-project .single-project-header a:hover {
+  cursor: pointer;
+  color: #5692b6;
+}
 body .projects .single-project .single-project-header .fa-up-right-from-square {
   margin-left: 10px;
   margin-top: 3px;
   color: #9CA3AF;
   font-size: 12px;
 }
-
 body .projects .single-project p {
   color: #434A54;
   font-size: 13px;
   line-height: 1.5em;
   font-weight: 400;
 }
-
 body .projects .github-button-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
-
 body .projects .github-button-container button {
   cursor: pointer;
   border-radius: 5px;
@@ -129,29 +106,23 @@ body .projects .github-button-container button {
   font-weight: 600;
   font-size: 14px;
 }
-
 body .projects .github-button-container button .fa-github {
   margin-left: 10px;
 }
-
 body .projects .github-button-container button:hover {
   background: black;
 }
-
 body .elsewhere .elsewhere-buttons-container {
-  display: -ms-grid;
   display: grid;
 }
-
 body .elsewhere .elsewhere-buttons-container a {
   text-decoration: none;
   color: #374151;
   width: 100%;
 }
-
 body .elsewhere .elsewhere-buttons-container button {
   background: #F3F4F6;
-  border-color: #0000000D;
+  border-color: rgba(0, 0, 0, 0.0509803922);
   border-style: solid;
   border: 1px;
   padding: 8px 14px 8px 14px;
@@ -159,30 +130,22 @@ body .elsewhere .elsewhere-buttons-container button {
   font-size: 12px;
   margin: 5px 5px 5px 5px;
 }
-
 body .elsewhere .elsewhere-buttons-container button:hover {
   cursor: pointer;
-  background-color: #d4d4d6c0;
+  background-color: rgba(212, 212, 214, 0.7529411765);
 }
-
 body .elsewhere .elsewhere-buttons-container .fa-brands {
   margin-right: 10px;
 }
-
 body .elsewhere .elsewhere-buttons-container .instagram {
-  -ms-grid-column: 1;
-      grid-column-start: 1;
+  grid-column-start: 1;
 }
-
 body .elsewhere .elsewhere-buttons-container .facebook {
-  -ms-grid-column: 2;
-      grid-column-start: 2;
+  grid-column-start: 2;
 }
-
 body .footer {
   margin-top: 50px;
 }
-
 body .footer p {
   font-size: 13px;
   color: #9CA3AF;
@@ -227,7 +190,6 @@ body .footer p {
     height: 100px;
   }
 }
-
 @media (min-width: 1025px) {
   body {
     margin-top: 40px;
@@ -266,5 +228,4 @@ body .footer p {
     width: 100px;
     height: 100px;
   }
-}
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
